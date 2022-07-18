@@ -189,12 +189,6 @@ body {
     background-color: #188CE8;
 }
 
-
-p {
-    margin-top: 10px;
-}
-
-
 /*================ /HERO ================*/
 /*================ ABOUT ================*/
 
@@ -223,7 +217,7 @@ p {
 }
 
 .about-item {
-    width: 271px;
+    width: 270px;
     margin-left: 0;
 }
 
@@ -233,6 +227,7 @@ p {
 
 
 .about-title {
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.42;
@@ -283,6 +278,7 @@ p {
 }
 
 .employee-name {
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -313,16 +309,15 @@ p {
 /*================ /EMPLOYEES ================*/
 /*================ FOOTER ================*/
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: #2F303A;
 }
 
-.footer-container {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.adress-container {
-    margin-top: 20px;
+.logo-footer {
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 0;
 }
 
 .footer-container-adress {
